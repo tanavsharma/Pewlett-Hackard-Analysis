@@ -23,7 +23,7 @@ Anotheer thing we can look at is how many employees from each department will be
 <img src="/Screenshots/retiring_titles.png" alt="pyberData_table_summary" width=360><br>
 
 ## Summary 
-**How many roles will need to be filled as the "silver tsunami" begins to make an impact?** 
+**How many roles will need to be filled as the "silver tsunami" begins to make an impact?** <br>
 72,458 roles would need to be filled
 We just need to sum up the count of employess from each department. Here is a breakdown of that number:
 ```
@@ -39,7 +39,7 @@ We just need to sum up the count of employess from each department. Here is a br
 ---------------------------
 ```
 
-**Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?**
+**Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?**<br>
 Lets find the number of employees in the mentroship program by running this query on the table:
 ```
 SELECT COUNT(emp_no) FROM mentorship_eligibilty;
